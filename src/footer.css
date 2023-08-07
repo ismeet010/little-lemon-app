@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.footer{
+    margin-top: 150px;
+    width:100%;
+    padding: 100px 15%;
+    display: flex;
+    color: white;
+    background-color: rgb(36, 32, 32);
+}
+.footer div{
+    text-align:center;
+}
+/* 
+.col-2{
+    flex-grow:2;
+}
+div h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+} */

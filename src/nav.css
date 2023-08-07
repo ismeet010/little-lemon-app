@@ -1,0 +1,19 @@
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(40, 35, 35);
+}
+
+ul li{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
