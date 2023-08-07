@@ -1,4 +1,5 @@
-
+import '../footer.css'
+import 'https://kit.fontawesome.com/c4254e24a8.js'
 
 function Footer() {
   return (
@@ -15,7 +16,11 @@ function Footer() {
       </div>
       <div class="col-3">
         <h3>Connect with us</h3>
-        <p></p>
+        <div class="social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
     </footer>
   );
