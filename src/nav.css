@@ -1,18 +1,22 @@
 *{
   text-decoration: none !important;
 }
+nav{
+  background-color: rgb(40, 35, 35);
+}
 
 ul{
     text-decoration: none;
     list-style-type: none;
     display: flex;
-    background-color: rgb(40, 35, 35);
+    flex-flow: row nowrap;
 }
 
 ul li{
-    padding: 10px;
+    padding: 18px 10px;
     margin: 5px;
     color: white;
+    font-size: medium;
 }
 
 a, a:hover, a:focus, a:active {
@@ -20,9 +24,41 @@ a, a:hover, a:focus, a:active {
       color: inherit;
  }
 
-@media screen and (max-width: 480px) {
-  ul {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .menu{
+    display: none;
+  flex-flow: column nowrap;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  padding-top: 3.5rem;
   }
 }
 
+nav{
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger{
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+
+}
+.b{
+  width: 2rem;
+  height: 0.5rem;
+  background-color: red;
+  border-radius: 10px;
+}

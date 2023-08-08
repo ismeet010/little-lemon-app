@@ -1,28 +1,13 @@
 import "../nav.css";
+import Burger from "./Burger";
+import RightNav from "./RightNav";
 
 function Nav() {
   return (
     <nav>
-      <ul class="menu">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#menu">Menu</a>
-        </li>
-        <li>
-          <a href="#reservations">Reservations</a>
-        </li>
-        <li>
-          <a href="#order">Order online</a>
-        </li>
-        <li>
-          <a href="#login">Login</a>
-        </li>
-      </ul>
+      <div>abcd</div>
+      <Burger />
+      <RightNav />
     </nav>
   );
 }

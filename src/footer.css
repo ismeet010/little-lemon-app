@@ -8,6 +8,7 @@
     width:100%;
     padding: 20px 5%;
     display: flex;
+    flex-wrap: wrap;
     color: white;
     background-color: rgb(36, 32, 32);
 }
@@ -16,7 +17,7 @@
 }
 
 .col-2{
-    flex-grow:2;
+    flex-grow:1.5;
 }
 .footer div h3{
     font-weight: 400;
