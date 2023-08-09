@@ -1,9 +1,10 @@
 import React from 'react'
+import "../nav.css";
 
-const RightNav = () => {
+const RightNav = (open) => {
   return (
     <div>
-      <ul className="menu">
+      <ul id="menu" className="menu">
         <li>
           <a href="#">Home</a>
         </li>
