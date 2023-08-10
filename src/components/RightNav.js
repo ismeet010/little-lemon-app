@@ -3,8 +3,8 @@ import "../nav.css";
 
 const RightNav = (open) => {
   return (
-    <div>
-      <ul id="menu" className="menu">
+    <div className="menu">
+      <ul id="menu" open={open}>
         <li>
           <a href="#">Home</a>
         </li>

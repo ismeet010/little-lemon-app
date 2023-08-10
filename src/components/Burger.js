@@ -4,16 +4,18 @@ import RightNav from './RightNav';
 const Burger = () => {
     const [open, setOpen] = useState(true);
     const [className, setClassName] = useState("hidden")
+    const [visible, setVisible] = useState("");
     useEffect( ()=>{
         console.log("open", open)
         open ? setClassName("show") : setClassName("hidden")
+        open ? setVisible("") : setVisible("visible");
         console.log("here")
         const bur = document.getElementById("burger")
         const ul = document.getElementById("menu")
         console.log(ul)
         bur.className = className
-        ul.className =className
-        console.log(bur.classList)
+        ul.className = visible
+        console.log(ul.classList)
     }, [open]
 
     )
