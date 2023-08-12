@@ -1,5 +1,4 @@
 import '../footer.css'
-import 'https://kit.fontawesome.com/c4254e24a8.js'
 
 function Footer() {
   return (
