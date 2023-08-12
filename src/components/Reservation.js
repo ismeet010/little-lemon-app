@@ -8,6 +8,7 @@ const Reservation = () => {
 
   return (
     <div class="reserDiv">
+    <h2>Table reservation</h2>
       <form class="reservationForm" onSubmit={reserve}>
         <label for="date">Date</label>
         <input type="date" id="date"></input>
