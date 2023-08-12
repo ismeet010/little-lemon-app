@@ -2,7 +2,13 @@
   text-decoration: none !important;
 }
 nav{
-  background-color: rgb(40, 35, 35);
+  background-color: rgb(161, 155, 155);
+  /* float: right; */
+  margin:0px;
+}
+nav img{
+  padding-top: 20px;
+  height: 80px;
 }
 
 ul{
