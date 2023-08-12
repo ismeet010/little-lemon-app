@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/little-lemon-app/static/css/main.673571ab.css",
-    "main.js": "/little-lemon-app/static/js/main.55b6fdeb.js",
+    "main.css": "/little-lemon-app/static/css/main.1ce52576.css",
+    "main.js": "/little-lemon-app/static/js/main.9b6a5c13.js",
     "static/js/787.c0b67421.chunk.js": "/little-lemon-app/static/js/787.c0b67421.chunk.js",
     "static/media/logo.png": "/little-lemon-app/static/media/logo.d4cae6fac8384c2dae04.png",
     "index.html": "/little-lemon-app/index.html",
-    "main.673571ab.css.map": "/little-lemon-app/static/css/main.673571ab.css.map",
-    "main.55b6fdeb.js.map": "/little-lemon-app/static/js/main.55b6fdeb.js.map",
+    "main.1ce52576.css.map": "/little-lemon-app/static/css/main.1ce52576.css.map",
+    "main.9b6a5c13.js.map": "/little-lemon-app/static/js/main.9b6a5c13.js.map",
     "787.c0b67421.chunk.js.map": "/little-lemon-app/static/js/787.c0b67421.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.673571ab.css",
-    "static/js/main.55b6fdeb.js"
+    "static/css/main.1ce52576.css",
+    "static/js/main.9b6a5c13.js"
   ]
 }
