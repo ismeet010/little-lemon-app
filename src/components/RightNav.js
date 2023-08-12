@@ -3,6 +3,10 @@ import "../nav.css";
 
 const RightNav = (open) => {
   return (
+//     <Routes> 
+//     <Route path="/" element={<HomePage />}></Route>
+//     <Route path="/booking" element={<BookingPage />}></Route>
+// </Routes>
     <div className="menu">
       <ul id="menu" open={open}>
         <li>

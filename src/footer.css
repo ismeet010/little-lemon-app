@@ -14,9 +14,11 @@
 }
 .footer div{
     text-align:center;
+    margin-left: 10px;
+    padding: 10px;
 }
 
-.col-2{
+.col-3{
     flex-grow:1.5;
 }
 .footer div h3{
@@ -24,7 +26,7 @@
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-.footer .col-1 a{
+.footer .col-2 a{
     display: block;
     text-decoration: none;
     margin-bottom: 10px;

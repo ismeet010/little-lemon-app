@@ -2,9 +2,13 @@ import React from 'react'
 import "../reservation.css"
 
 const Reservation = () => {
+    function reserve(e) {
+      e.preventDefault();
+    }
+
   return (
     <div class="reserDiv">
-      <form class="reservationForm">
+      <form class="reservationForm" onSubmit={reserve}>
         <label for="date">Date</label>
         <input type="date" id="date"></input>
         <label for="time">Time</label>
@@ -22,7 +26,7 @@ const Reservation = () => {
           <option value="bday">Birthday</option>
           <option value="aniversary">Aniversary</option>
         </select>
-        <button type="submit" onClick="">
+        <button type="submit">
           {" "}
           Make a reservation{" "}
         </button>
