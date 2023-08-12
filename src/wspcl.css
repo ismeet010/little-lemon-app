@@ -1,0 +1,53 @@
+.wspcl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.scard{
+    /* padding: 10px;*/
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 5%;
+    background-color: rgb(245, 189, 189);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.scard:hover, .card:hover{
+    box-shadow: 0 0 30px -10px black;
+}
+
+.scard .image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.scard img{
+    width: 300px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.scard img:hover {
+  transform: scale(1.6);
+}
+
+.scard h4,.scard p{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 2px;
+    padding: 0;
+}

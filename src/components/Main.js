@@ -1,10 +1,13 @@
+import Reservation from "./Reservation";
+import Testimonial from "./Testimonial";
+import Weekspcl from "./Weekspcl";
 
 
 function Main() {
   return (
     <>
       <main>
-        <div id="about">
+        {/* <div id="about">
           About Section
           <p>
             orem Ipsum is simply dummy text of the printing and typesetting
@@ -55,11 +58,10 @@ function Main() {
             always free from repetition, injected humour, or non-characteristic
             words etc.
           </p>
-        </div>
-
-        <div id="login">
-          Login Section
-        </div>
+        </div> */}
+        <Weekspcl />
+        <Testimonial />
+        <Reservation />
       </main>
     </>
   );}
