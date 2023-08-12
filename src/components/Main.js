@@ -1,3 +1,4 @@
+
 import Section from "./Section";
 import {DATA} from "../assets/data/data"
 
@@ -52,6 +53,7 @@ function Main() {
       />
       <Section content = {getContent("about")}
       />
+
     </>
   );}
 

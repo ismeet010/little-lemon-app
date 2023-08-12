@@ -1,10 +1,11 @@
 import "../nav.css";
 import Burger from "./Burger";
+import logo from "../assets/logo.png";
 
 function Nav() {
   return (
     <nav>
-      <div>abcd</div>
+      <img src={logo} alt="logo" width={"200px"} height={"70px"}></img>
       <Burger />
     </nav>
   );
