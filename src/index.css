@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.section{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding:10px;
+  /* margin:50px 0px; */
+  margin-bottom: 20px;
+}
+
+.font-white{
+  color:white;
+}
+
+.font-yellow{
+  color: #f4ce14;
+}
+
+.button-primary {
+  background-color: #f4ce14;
+  border: 0.1875rem solid #f4ce14;
+  border-radius: 2rem;
+  color: #495e57;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: background,border,color .5s;
+}
+
+.hero-image{
+  border-radius: 1rem;
+    grid-column: 2;
+    height: 22rem;
+    justify-self: end;
+    margin-bottom: -3.375rem;
+    object-fit: cover;
+    width: 400px;
+}
+.week-special-header{
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.meal-card{
+    background-color: #edefee;
+    border-radius: 1rem;
+    /* min-height: 31.25rem; */
+    overflow: hidden;
+    padding-bottom: 2.5rem;
+}
+
+.meal-card-image{
+  height: 200px;
+  /* width: 00px; */
+  margin-bottom: 0.9375rem;
+  object-fit: cover;
+  transition: all .3s ease-in-out;
+  width: 100%;
+}
+
+.order-button{
+  color: #495e57;
+    text-decoration: none;
+}
+
+.join{
+  margin-bottom:0 
+}
+.testimonial-card{
+    border-radius: 1rem;
+    padding: 1rem;
+    width:300px
+}
+.testimonial-card img {
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  width: 8rem;
+}
+.chef-image{
+  width: 400px;
+  border-radius: 1rem;
+}
+
+
