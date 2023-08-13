@@ -2,8 +2,26 @@ import introImage from "../intro-image.jpg";
 import person from "../person.jpg";
 import chef from "../chef.jpg";
 import Section from "../../components/Section";
+import logo1 from "../logo-footer.png";
+import navLogo from "../logo.png";
 
 export const DATA = [
+    {
+      id : "nav-logo",
+      content: <img src={navLogo} width={"250px"} alt="logo"></img>
+    },
+    {
+      id : "nav-links",
+      content : 
+      <>
+        <a className = "nav-links" href="#">Home</a>
+        <a className = "nav-links" href="#about">About</a>
+        <a className = "nav-links" href="#menu">Menu</a>
+        <a className = "nav-links" href="#reservations">Reservations</a>
+        <a className = "nav-links" href="#order">Order online</a>
+        <a className = "nav-links" href="#login">Login</a>
+      </>
+    },
     {
       id : "intro-text",
       content : <><h1 className = "font-yellow">Little Lemon</h1><h2 className = "font-white">Chicago</h2><p className = "font-white">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p><button class="button-primary" href="/bookings">Reserve a table</button></>
@@ -93,6 +111,43 @@ export const DATA = [
           </>
         } />
       ]
+    },
+    {
+      id :"footer-logo",
+      content:<img src={logo1} alt="logo" width="80px" />
+    },
+    {
+      id:"nav-useful-links",
+      content:
+      <>
+        <h3>Useful links</h3>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+      </>
+    },
+    {
+      id:"nav-contact",
+      content: 
+      <>
+        <h3>Contact us</h3>
+        <p>India</p>
+      </>
+    },
+    {
+      id:"nav-connect",
+      content: 
+      <>
+        <h3>Connect with us</h3>
+        <Section width = {100} content = {
+          <>
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-instagram"></i>
+          </>
+        } />
+      </>
     }
+
 
   ]

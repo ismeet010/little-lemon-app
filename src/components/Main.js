@@ -2,6 +2,7 @@
 import Section from "./Section";
 import {DATA} from "../assets/data/data"
 
+
 function Main() {
   const getContent = (desiredId) => {
     const content = DATA.find(item => item.id === desiredId);
@@ -9,6 +10,12 @@ function Main() {
   }
   return (
     <>
+      <Section className = "join align-center" content = {
+        <>
+          <Section content = {getContent("nav-logo")} />
+          <Section className = "join"  width = {600} content = {getContent("nav-links")} />
+        </>
+      }/>
       <Section height = {300} backgroundColor = {"#495e57"} content = {
       <>
         <Section backgroundColor = {"#495e57"} isVertical = {true} content = {getContent("intro-text")}/>
@@ -52,6 +59,18 @@ function Main() {
         }
       />
       <Section content = {getContent("about")}
+      />
+
+      <Section backgroundColor = "#495e57" className = "join"
+        content = {
+          <>
+            <Section  height = {200} isVertical = {true} content = {getContent("footer-logo")}/>
+            <Section height = {200} className = {"font-white vertical-section"} isVertical = {true} content = {getContent("nav-useful-links")}/>
+            <Section height = {200} className = {"font-white"} isVertical = {true} content = {getContent("nav-contact")}/>
+            <Section height = {200} className = {"font-white"} isVertical = {true} content = {getContent("nav-connect")}/>
+          </>
+        }
+
       />
 
     </>
