@@ -14,7 +14,9 @@
 }
 
 .hero-content, .about-content{
+    display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 20px;
     
 }
@@ -60,24 +62,21 @@
     flex-direction: column;
 
 }
+
 .heading-gap{
-    margin-top: 80px;
     text-align: center;
 }
 
 
 .scard{
-    /* padding: 10px;*/
     margin: 5px;
     margin-left: 10px;
     border-radius: 5%;
-    background-color: rgb(245, 189, 189);
+    background-color: rgb(232, 225, 225);
     width: 300px;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -87,9 +86,10 @@
 
 .scard .image-box {
     position: relative;
-    margin: auto;
+    /* margin: auto; */
     overflow: hidden;
     border-radius: 5%;
+    /* height: 350px; */
 }
 
 .scard img{
@@ -106,11 +106,17 @@
   transform: scale(1.5);
 }
 
-.scard h4,.scard p{
+.scard h4{
     font-size: 25px;
     font-weight: 300;
     margin: 2px;
     padding: 0;
+}
+
+.splcard-description{
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
 }
 
 .construction{

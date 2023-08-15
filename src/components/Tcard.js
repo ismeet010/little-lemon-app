@@ -17,8 +17,8 @@ const Tcard = ({entry}) => {
   return (
     <div class="card">
       <img
-        src="https://hips.hearstapps.com/rover/profile_photos/67055711-c808-4a4d-811a-e7155a2bce10_1667409691.file"
-        alt="abcd"
+        src={entry.image}
+        alt={entry.alt}
       />
       <h4>{entry.name}</h4>
       <span>
@@ -26,9 +26,9 @@ const Tcard = ({entry}) => {
           <i className="fab fa-facebook"></i>
         ))} */}
       </span>
-      <blockquote>
-        <p>{entry.quote}</p>
-      </blockquote>
+      <q>
+        {entry.quote}
+      </q>
     </div>
   );
 }

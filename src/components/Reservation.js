@@ -16,7 +16,7 @@ const Reservation = () => {
 
   return (
     <div class="reserDiv">
-      <h2>Table reservation</h2>
+      <h2 className='white-bold'>Table reservation</h2>
       <form class="reservationForm" onSubmit={reserve}>
         <label for="date">Date</label>
         <input type="date" id="date"></input>
@@ -38,7 +38,7 @@ const Reservation = () => {
           <option value="bday">Birthday</option>
           <option value="aniversary">Aniversary</option>
         </select>
-        <button type="submit"> Make a reservation </button>
+        <button className="buttongap" type="submit"> Make a reservation </button>
       </form>
     </div>
   );

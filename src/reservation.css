@@ -6,12 +6,10 @@
 }
 
 .reserDiv h2{
-    background-color: rgb(247, 247, 182);
-    font-size: 20px;
-    font-weight: 400;
+    background-color: #495e57;
     text-align: center;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
 }
 
@@ -22,7 +20,6 @@
     padding: 20px;
     width: 400px;
     height: 500px;
-    background-color: aliceblue;
 }
 
 .reservationForm input, .reservationForm button{
@@ -31,6 +28,19 @@
 }
 .reservationForm label{
     margin-top: 10px;
+    color: #495e57;
+    font-weight: 500;
 }
+.reservationForm input, .reservationForm select{
+    border-radius: 5px;
+    border-color: rgb(178, 187, 193);
+    height: 30px;
+}
+
+.buttongap{
+    margin-top: 50px;
+}
+
+
 
 

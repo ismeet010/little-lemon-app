@@ -6,34 +6,37 @@ const Weekspcl = () => {
   const spcldata = [
     {
       imgsrc:
-        "https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ79WIEtgli9Ji4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_006_4x3-41b0a478514c43e9baed0659bd362625.jpg",
-      imgalt: "spcl 1",
-      name: "Lasagna",
-      price: "$120",
-      description: "La La lasagna",
+        "https://littlelemon.alexismenest.vercel.app/static/media/greek-salad.25fc793faeb3d58ed9fb.jpg",
+      imgalt: "Greek Salad",
+      name: "Greek Salad",
+      price: "$15",
+      description:
+        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
     },
     {
       imgsrc:
-        "https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ79WIEtgli9Ji4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_006_4x3-41b0a478514c43e9baed0659bd362625.jpg",
-      imgalt: "spcl 1",
-      name: "Lasagna",
-      price: "$120",
-      description: "La La lasagna",
+        "https://littlelemon.alexismenest.vercel.app/static/media/bruschetta.d54e450bda5efcf06010.jpg",
+      imgalt: "Bruschetta",
+      name: "Bruschetta",
+      price: "$12",
+      description:
+        "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
     },
     {
       imgsrc:
-        "https://www.southernliving.com/thmb/iI2Pd7BIh0MFuQ79WIEtgli9Ji4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Extra_Easy_Lasagna_006_4x3-41b0a478514c43e9baed0659bd362625.jpg",
-      imgalt: "spcl 1",
-      name: "Lasagna",
-      price: "$120",
-      description: "La La lasagna",
-    }
+        "https://littlelemon.alexismenest.vercel.app/static/media/lemon-dessert.a146cfc0ccf8ce82fae4.jpg",
+      imgalt: "Lemon Dessert",
+      name: "Lemon Dessert",
+      price: "$14",
+      description:
+        "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
+    },
   ];
   return (
     <section className="wsp">
       <div className="max-width">
-        <div>
-          <h2 class="heading-gap">This week Specials!</h2>
+        <div class="flex-row gap space-between">
+          <h2>This week Specials!</h2>
           <button>Check menu</button>
         </div>
         <div class="wspcl">
