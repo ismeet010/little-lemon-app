@@ -1,14 +1,75 @@
+.hero, .about-bg{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    background-color: #495e57;
+    padding-top: 1.875rem;
+    padding-bottom: 1rem;
+}
+.max-width{
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-content, .about-content{
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.hero-content h2, .about-content h2{
+        color: yellow;
+    }
+.hero-content h3, .hero-content p, .about-content h3 , .about-content p{
+        color: white;
+    }
+.about-image{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about-image img{
+    height: 20rem;
+    justify-self: end;
+    object-fit: cover;
+    width: 30rem;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.hero-image{
+    height: 24rem;
+    justify-self: end;
+    margin-bottom: -4.375rem;
+    object-fit: cover;
+    width: 50%;
+    padding: 20px;
+    border-radius: 2rem;
+}
 .wspcl{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.wsp{
+    display: flex;
+    justify-content: center;
+}
+.wsp .max-width{
+    flex-direction: column;
+
+}
+.heading-gap{
+    margin-top: 80px;
+    text-align: center;
 }
 
 
 .scard{
     /* padding: 10px;*/
     margin: 5px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 5%;
     background-color: rgb(245, 189, 189);
     width: 300px;
@@ -42,7 +103,7 @@
 }
 
 .scard img:hover {
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
 
 .scard h4,.scard p{
@@ -50,4 +111,13 @@
     font-weight: 300;
     margin: 2px;
     padding: 0;
+}
+
+.construction{
+    display: flex;
+    justify-content: center;
+}
+
+.const-img{
+    height: 80vh;
 }

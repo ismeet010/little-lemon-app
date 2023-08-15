@@ -11,11 +11,11 @@ const Burger = () => {
         open ? setVisible("") : setVisible("visible");
         console.log("here")
         const bur = document.getElementById("burger")
-        const ul = document.getElementById("menu")
-        console.log(ul)
+        // const ul = document.getElementById("menu")
+        // console.log(ul)
         bur.className = className
-        ul.className = visible
-        console.log(ul.classList)
+        // ul.className = visible
+        // console.log(ul.classList)
     }, [open]
 
     )

@@ -2,12 +2,17 @@
 .testimonials{
     background-color: aquamarine;
     padding: 20px;
-    
+    display: flex;
+    justify-content: center;
+}
+.testimonials .max-width{
+    flex-direction: column;
 }
 .cards{
+    /* flex-wrap: wrap; */
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .card{

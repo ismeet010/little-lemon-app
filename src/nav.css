@@ -5,21 +5,27 @@ nav{
   background-color: rgb(161, 155, 155);
   /* float: right; */
   margin:0px;
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 }
 nav img{
-  padding-top: 20px;
-  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 75px;
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-ul{
+#menu a{
     text-decoration: none;
     list-style-type: none;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-ul li{
-    padding: 18px 10px;
+    padding: 22px 10px;
     margin: 5px;
     color: white;
     font-size: medium;
@@ -30,18 +36,12 @@ a, a:hover, a:focus, a:active {
       color: inherit;
  }
 
- nav{
-  width: 100%;
-  height: auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-}
+ 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .menu ul{
     transform: translateX(0%);
-    flex-flow: column nowrap;
+    /* flex-flow: column nowrap;
     position: fixed;
     top: 0;
     right: 0;
@@ -77,7 +77,7 @@ a, a:hover, a:focus, a:active {
 /* .show{
   transform-origin: -1px;
   transition: all 0.3s linear;
-} */
+}
 
 .show .b{
   background-color: pink;
@@ -102,7 +102,7 @@ a, a:hover, a:focus, a:active {
 /* .hidden{
   transform-origin: 1px;
   transition: all 0.3s linear;
-} */
+} 
 
 .hidden .b{
   background-color: blue;
@@ -129,7 +129,8 @@ a, a:hover, a:focus, a:active {
   .hidden .menu{
     transform: translateX(0);
   }
-}
+} 
+*/
 
 
 
