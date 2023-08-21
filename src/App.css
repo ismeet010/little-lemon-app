@@ -7,13 +7,12 @@
 }
 
 /* Header */
-header{
+/* header{
   border-bottom: 1rem solid #495e57;
   color: #495e57;
 }
 nav{
   background-color: white;
-  /* float: right; */
   margin:0px;
   height: auto;
   padding: 0 20px;
@@ -48,7 +47,7 @@ a, a:hover, a:focus, a:active {
 
  #menu a:hover{
     background-color: #f4ce14;
- }
+ } */
 
 
 button{
@@ -127,3 +126,5 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
     }
 
 } */
+
+
