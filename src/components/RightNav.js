@@ -60,6 +60,7 @@ const RightNav = () => {
             </NavLink>
           </li>
         </ul>
+        <div class="bottomborder"></div>
       </section>
 
       {/* //     <div className="menu">

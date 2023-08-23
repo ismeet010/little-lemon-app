@@ -35,8 +35,6 @@ function App() {
         </Routes>
       </main>
       <Footer />
-     
-      <i class="fa fa-window-close-o" aria-hidden="true"></i>
     </BrowserRouter>
     // <>
     //   <Header />

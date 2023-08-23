@@ -1,5 +1,6 @@
 import '../footer.css'
 import logo from "../assets/logo-footer.png";
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -11,9 +12,33 @@ function Footer() {
           </div>
           <div className="col-2">
             <h3>Useful links</h3>
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
+            <ul className='footer-links'>
+            <li className='links'>
+            <NavLink class="link" to="/">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink class="link" to="about">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink class="link" to="menu">
+              Menu
+            </NavLink>
+          </li>
+          <li>
+            <NavLink class="link" to="reservation">
+              Reservation
+            </NavLink>
+          </li>
+          <li>
+            <NavLink class="link" to="login">
+              Login
+            </NavLink>
+          </li>
+        </ul>
           </div>
           <div className="col-3">
             <h3>Contact us</h3>

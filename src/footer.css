@@ -48,3 +48,6 @@ footer{
     cursor: pointer;
 }
 
+.footer-links{
+    list-style-type: none;
+}
