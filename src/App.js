@@ -12,6 +12,7 @@ import Reservation from './components/Reservation';
 import Ourstory from './components/Ourstory';
 import Underconstruction from './components/Underconstruction';
 import RightNav from './components/RightNav';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Route path="about" element={<Ourstory />} />
           <Route path="reservation" element={<Reservation />} />
           <Route path="login" element={<Underconstruction />} />
-          <Route path="menu" element={<Underconstruction />} />
+          <Route path="menu" element={<Menu />} />
           {/* <Route path="/" element={<Home />} /> */}
         </Routes>
       </main>

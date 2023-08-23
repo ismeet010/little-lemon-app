@@ -129,5 +129,5 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 
 
 .bottomborder{
-  border-bottom: #495e57 solid  15px;
+  border-bottom: #495e57 solid  5px;
 }
