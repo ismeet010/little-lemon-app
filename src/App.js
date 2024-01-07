@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import "./nav.css";
 
@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 // import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import Burger from './components/Burger';
 import Reservation from './components/Reservation';
 import Ourstory from './components/Ourstory';
 import Underconstruction from './components/Underconstruction';
@@ -18,20 +17,24 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        
-          {/* Link and NavLink are different as when we click on navlink it gets a class="active" in it */}
-          {/* <Burger /> */}
-          <RightNav />
-        
+        {/* Link and NavLink are different as when we click on navlink it gets a class="active" in it */}
+        {/* <Burger /> */}
+        <RightNav />
       </header>
       <main>
         <Routes>
           {/* index is same thing as path="/" */}
-          <Route path="/" element={<Main />} />
-          <Route path="about" element={<Ourstory />} />
-          <Route path="reservation" element={<Reservation />} />
-          <Route path="login" element={<Underconstruction />} />
-          <Route path="menu" element={<Menu />} />
+          <Route path="little-lemon-app" element={<Main />} />
+          <Route path="little-lemon-app/about" element={<Ourstory />} />
+          <Route
+            path="little-lemon-app/reservation"
+            element={<Reservation />}
+          />
+          <Route
+            path="little-lemon-app/login"
+            element={<Underconstruction />}
+          />
+          <Route path="little-lemon-app/menu" element={<Menu />} />
           {/* <Route path="/" element={<Home />} /> */}
         </Routes>
       </main>

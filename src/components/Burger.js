@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
-import RightNav from './RightNav';
-import '../nav.css'
+// import React, {useState, useEffect} from 'react'
+// import RightNav from './RightNav';
+// import '../nav.css'
 
 const Burger = () => {
     // const [open, setOpen] = useState(true);

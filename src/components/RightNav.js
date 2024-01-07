@@ -23,7 +23,11 @@ const RightNav = () => {
       <img src={logo} alt="logo" width={"200px"} height={"70px"}></img>
 
       <div className="menu-icon">
-        <i className="fa fa-bars menu" aria-hidden="true" onClick={showMenu}></i>
+        <i
+          className="fa fa-bars menu"
+          aria-hidden="true"
+          onClick={showMenu}
+        ></i>
       </div>
       <section class={active ? "slider active" : "slider"}>
         <ul id="menu">
@@ -35,27 +39,27 @@ const RightNav = () => {
             ></i>
           </div>
           <li>
-            <NavLink class="link" to="/">
+            <NavLink class="link" to="little-lemon-app">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink class="link" to="about">
+            <NavLink class="link" to="little-lemon-app/about">
               About
             </NavLink>
           </li>
           <li>
-            <NavLink class="link" to="menu">
+            <NavLink class="link" to="little-lemon-app/menu">
               Menu
             </NavLink>
           </li>
           <li>
-            <NavLink class="link" to="reservation">
+            <NavLink class="link" to="little-lemon-app/reservation">
               Reservation
             </NavLink>
           </li>
           <li>
-            <NavLink class="link" to="login">
+            <NavLink class="link" to="little-lemon-app/login">
               Login
             </NavLink>
           </li>
