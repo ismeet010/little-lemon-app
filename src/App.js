@@ -6,21 +6,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //pages
 // import Header from './components/Header';
 import Main from './components/Main';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import Reservation from './components/Reservation';
-import Ourstory from './components/Ourstory';
+import Ourstory from './components/About/Ourstory';
 import Underconstruction from './components/Underconstruction';
-import RightNav from './components/RightNav';
-import Menu from './components/Menu';
+import RightNav from './components/navbar/RightNav';
+import Menu from './components/menu/Menu';
 
 function App() {
   return (
     <BrowserRouter>
-      <header>
         {/* Link and NavLink are different as when we click on navlink it gets a class="active" in it */}
         {/* <Burger /> */}
-        <RightNav />
-      </header>
+      <RightNav />
       <main>
         <Routes>
           {/* index is same thing as path="/" */}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Tcard from './Tcard';
-import "../testimonial.css"
+import "./testimonial.css"
 
 
 const Testimonial = () => {

@@ -15,12 +15,12 @@ const Reservation = () => {
     }
 
   return (
-    <div class="reserDiv">
-      <h2 className='white-bold'>Table reservation</h2>
-      <form class="reservationForm" onSubmit={reserve}>
-        <label for="date">Date</label>
+    <div className="reserDiv">
+      <h2 className="white-bold">Table Reservation</h2>
+      <form className="reservationForm" onSubmit={reserve}>
+        <label htmlFor="date">Date</label>
         <input type="date" id="date"></input>
-        <label for="time">Time</label>
+        <label htmlFor="time">Time</label>
         <select name="time" id="time">
           {availableTimes.map((e) => (
             <option value={Number(e)}>{e} PM</option>
@@ -31,14 +31,17 @@ const Reservation = () => {
           <option value="6">6:00 PM</option>
           <option value="8">8:00 PM</option> */}
         </select>
-        <label for="guests">Number of guests</label>
+        <label htmlFor="guests">Number of guests</label>
         <input type="number" min="2" max="15" id="guests"></input>
-        <label for="occasn">Occasion</label>
+        <label htmlFor="occasn">Occasion</label>
         <select name="Occasion" id="occasn">
           <option value="bday">Birthday</option>
           <option value="aniversary">Aniversary</option>
         </select>
-        <button className="buttongap" type="submit"> Make a reservation </button>
+        <button className="buttongap" type="submit">
+          {" "}
+          Make a reservation{" "}
+        </button>
       </form>
     </div>
   );

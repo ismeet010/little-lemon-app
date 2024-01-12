@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ourstory = () => {
   return (
-    <div class="about-bg">
+    <div className="about-bg">
       <div className="max-width">
         <div className="about-content">
           <h2>Little Lemon</h2>
@@ -30,7 +30,7 @@ const Ourstory = () => {
             Ipsum is not simply random text.
           </p>
         </div>
-        <div class="about-image">
+        <div className="about-image">
           <img
             src="https://littlelemon.alexismenest.vercel.app/static/media/chefs-mario-and-adrian_a.baf0d2e31dc6977f913f.jpg"
             alt="little-lemon restaurant"

@@ -1,9 +1,15 @@
+header{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
 .slider ul{
   width: 100%;
   transition: 1s ease-in-out;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .slider ul li{

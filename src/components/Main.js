@@ -1,19 +1,17 @@
-import Ourstory from "./Ourstory";
-import Reservation from "./Reservation";
-import Testimonial from "./Testimonial";
-import Weekspcl from "./Weekspcl";
+import Testimonial from "./Testimonial/Testimonial";
+import Weekspcl from "./weekendSpecial/Weekspcl";
 import Hero from "./Hero";
-
 
 function Main() {
   return (
     <>
       <main>
-        <Hero/>
+        <Hero />
         <Weekspcl />
         <Testimonial />
       </main>
     </>
-  );}
+  );
+}
 
 export default Main;

@@ -1,6 +1,6 @@
-import React from 'react'
-import Spclcard from './Spclcard';
-import "../wspcl.css"
+import React from "react";
+import Spclcard from "./Spclcard";
+import "./wspcl.css";
 
 const Weekspcl = () => {
   const spcldata = [
@@ -47,6 +47,6 @@ const Weekspcl = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Weekspcl
+export default Weekspcl;

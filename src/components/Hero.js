@@ -1,11 +1,11 @@
 import React from 'react'
-import "../wspcl.css"
+import "./weekendSpecial/wspcl.css"
 
 const Hero = () => {
   return (
-    <div class="hero">
+    <div className="hero">
       <div className="max-width">
-        <div class="hero-content">
+        <div className="hero-content">
           <h2>Little Lemon</h2>
           <h3>Chicago</h3>
           <p>

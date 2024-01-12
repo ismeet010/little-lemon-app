@@ -54,7 +54,10 @@
 .wspcl{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    row-gap: 30px;
+    column-gap: 100px;
+
 }
 .wsp{
     display: flex;
