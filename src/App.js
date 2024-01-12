@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer/Footer';
-import Reservation from './components/Reservation';
+import BookingPage from "./components/reservation/BookingPage";
 import Ourstory from './components/About/Ourstory';
 import Underconstruction from './components/Underconstruction';
 import RightNav from './components/navbar/RightNav';
@@ -16,8 +16,8 @@ import Menu from './components/menu/Menu';
 function App() {
   return (
     <BrowserRouter>
-        {/* Link and NavLink are different as when we click on navlink it gets a class="active" in it */}
-        {/* <Burger /> */}
+      {/* Link and NavLink are different as when we click on navlink it gets a class="active" in it */}
+      {/* <Burger /> */}
       <RightNav />
       <main>
         <Routes>
@@ -26,7 +26,7 @@ function App() {
           <Route path="little-lemon-app/about" element={<Ourstory />} />
           <Route
             path="little-lemon-app/reservation"
-            element={<Reservation />}
+            element={<BookingPage />}
           />
           <Route
             path="little-lemon-app/login"
